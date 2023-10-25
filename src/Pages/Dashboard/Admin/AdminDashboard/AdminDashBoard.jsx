@@ -5,13 +5,10 @@ import emailjs from '@emailjs/browser'
 import { toast } from 'react-hot-toast'
 import ConfirmationModal from '../../LoanApply/ConfirmationModal'
 import ReminderModal from '../../ReminderModal/ReminderModal'
-// import ConfirmModal from '../../ConfirmModal/ConfirmModal'
 
 const AdminDashboard = () => {
   const [modal,setModal] = useState(false)
   
-
-
   const sendEmail = () => {
     const templateParams = {
       to_name: 'Dibbo Dash',
@@ -63,7 +60,6 @@ const AdminDashboard = () => {
   return (
     <div>
   
-      {/* <p className="font-bold text-2xl">All Data</p> */}
       <div className="bg-[url('https://i.ibb.co/NFWqVcK/Frame-1171275325.png')] bg-cover grid grid-cols-1 lg:grid-cols-3">
         <div className="text-center  flex-col lg:border-r border-b just-2y-center p-5 items-center ">
           <img
@@ -117,12 +113,7 @@ const AdminDashboard = () => {
           </button>
         </div>
       </div>
-      {/* <img
-        src="https://i.ibb.co/NFWqVcK/Frame-1171275325.png"
-        width="100%"
-        alt=""
-      /> */}
-
+     
       <div className="m-5 relative overflow-x-auto shadow-md sm:rounded-lg">
         <div className="lg:m-2 flex items-center justify-between pb-4 bg-white dark:bg-gray-900">
           <p>Donation History</p>
