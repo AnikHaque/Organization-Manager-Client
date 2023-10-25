@@ -16,15 +16,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* a {
-  font-weight: 500;
-  color: white;
-  text-decoration: inherit;
-}
 
-a:hover {
-  color: white;
-} */
 
 #home {
   clip-path: polygon(100% 0, 100% 100%, 59% 100%, 50% 87%, 0 87%, 0 0);
